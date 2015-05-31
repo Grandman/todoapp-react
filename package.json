@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "jspm": "~0.15.6",
+    "node-static": "~0.7.6"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "css": "github:systemjs/plugin-css@^0.1.11",
+      "immutable": "npm:immutable@^3.7.3",
+      "js-atom": "npm:js-atom@^0.1.0",
+      "react": "npm:react@^0.14.0-alpha3",
+      "react-bootstrap": "npm:react-bootstrap@^0.23.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}

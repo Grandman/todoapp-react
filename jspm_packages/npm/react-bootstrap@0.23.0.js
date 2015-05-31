@@ -1,0 +1,1 @@
+module.exports = require("npm:react-bootstrap@0.23.0/lib/index");

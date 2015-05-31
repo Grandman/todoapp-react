@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="example"></div>
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>
+    var cacheBust = function(){
+        var systemLocate = System.locate;
+        System.locate = function(load) {
+            return Promise.resolve(systemLocate.call(this, load)).then(function(address) {
+                if (address.search('jspm_packages') != -1) return address;
+                if (address.search('.css') != -1) return address;
+                return address + '?bust=' + Date.now();
+            });
+        };
+    };
+    cacheBust();
+    System.import('lib/main');
+</script>
+</body>
+</html>

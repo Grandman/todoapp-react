@@ -1,0 +1,31 @@
+{
+  "name": "js-atom",
+  "description": "JavaScript implementation of ClojureScript's atoms",
+  "version": "0.1.0",
+  "devDependencies": {
+    "buster": "~0.7"
+  },
+  "_id": "js-atom@0.1.0",
+  "dist": {
+    "shasum": "ffa256c3b7c9d348ce4c4fdc30855f9c5e9bff3b",
+    "tarball": "http://registry.npmjs.org/js-atom/-/js-atom-0.1.0.tgz"
+  },
+  "_from": ".",
+  "_npmVersion": "1.3.21",
+  "_npmUser": {
+    "name": "cjohansen",
+    "email": "christian@cjohansen.no"
+  },
+  "maintainers": [
+    {
+      "name": "cjohansen",
+      "email": "christian@cjohansen.no"
+    }
+  ],
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "registry": "npm",
+  "dependencies": {}
+}
