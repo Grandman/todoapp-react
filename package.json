@@ -19,6 +19,7 @@
       "bootstrap": "github:twbs/bootstrap@^3.3.4",
       "css": "github:systemjs/plugin-css@^0.1.11",
       "immutable": "npm:immutable@^3.7.3",
+      "immutablediff": "npm:immutablediff@^0.4.2",
       "js-atom": "npm:js-atom@^0.1.0",
       "react": "npm:react@^0.14.0-alpha3",
       "react-bootstrap": "npm:react-bootstrap@^0.23.0"

@@ -1,0 +1,1 @@
+module.exports = require("npm:immutablediff@0.4.2/src/diff");
